@@ -8,6 +8,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Repository;
 
+import java.util.Optional;
+
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
 	@Autowired
@@ -17,6 +19,7 @@ public class DemoApplication implements CommandLineRunner {
 	}
 	@Override
 	public void run(String[] args){
-
+		Optional<Library> lib=repository.findById(1);
+		System.out.println();
 	}
 }

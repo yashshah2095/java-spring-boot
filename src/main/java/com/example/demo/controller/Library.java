@@ -41,7 +41,6 @@ public class Library {
     }
 
     public void setFirstName(String firstName) {
-        System.out.println(firstName+" Hello");
         FirstName = firstName;
     }
 
