@@ -1,10 +1,8 @@
 package com.example.demo.services;
 
-import com.example.demo.controller.Library;
+import com.example.demo.Library;
 import com.example.demo.repository.LibraryRepository;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
